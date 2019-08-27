@@ -10,7 +10,7 @@ address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:norm
 
 ul, ol ,li{ list-style:none; }
 
-body { color:#333; font:12px PingFangSC-Regular; background:#fff;}
+body { color:#333; font:12px  "PingFangSC-Regular"; background:#fff;}
 
 a { color:#666; text-decoration:none; }
 /*清除浮动*/
@@ -20,7 +20,7 @@ body,html,#root{
     height: 100%;
     overflow: hidden;
 }
-
+html{font-size: 26.667vw;}
 
 
 

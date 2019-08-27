@@ -5,4 +5,8 @@ module.exports = (app)=>{
         target:"https://api.ricebook.com",
         changeOrigin:true,
     }))
+    app.use(proxy("/server",{
+        target:"https://m.228.cn",
+        changeOrigin:true,
+    }))
 }

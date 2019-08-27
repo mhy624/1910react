@@ -26,11 +26,16 @@ const Login = Loadable({
     loading:Loading
 })
 
+const Register = Loadable({
+    loader:()=>import("./register"),
+    loading:Loading
+})
 
 export {
     Home,
     Find,
     Order,
     Mine,
-    Login
+    Login,
+    Register
 }

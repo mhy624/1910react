@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const TabBarWrapper = styled.div`
     width:100%;
-    height:1rem;
+    height:.5rem;
     position:fixed;
     left:0;
     bottom:0;
@@ -27,10 +27,10 @@ export const TabBarWrapper = styled.div`
             align-items:center;
         }
         i{
-            font-size:.4rem;
+            font-size:.2rem;
         }
         span{
-            font-size:.3rem;
+            font-size:.15rem;
         }
         .active{
             color:#c33;

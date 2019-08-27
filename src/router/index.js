@@ -3,7 +3,8 @@ import {
     Find,
     Order,
     Mine,
-    Login
+    Login,
+    Register
 } from "@pages"
 
 export const tabBarRoute = [
@@ -39,7 +40,7 @@ export const tabBarRoute = [
         component:Mine,
         meta:{
             flag:true,
-            auth:true
+            // auth:true
         },
         name:"我的",
         icon:"\ue617"
@@ -54,6 +55,15 @@ export const noTabBarRoute = [
             flag:false
         },
         name:"登陆",
+       
+    },
+    {
+        path:"/register",
+        component:Register,
+        meta:{
+            flag:false
+        },
+        name:"注册",
        
     }
 ]
