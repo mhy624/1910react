@@ -5,7 +5,11 @@ import {
     Mine,
     Login,
     Register,
-    SearchDetail
+    SearchDetail,
+    Campaign,
+    Subject,
+    DetailM,
+    CityM
 } from "@pages"
 
 export const tabBarRoute = [
@@ -74,6 +78,41 @@ export const noTabBarRoute = [
             flag:false
         },
         name:"搜索页面详情",
+    },
+    {
+        path:"/campaign",
+        component:Campaign,
+        meta:{
+            flag:false
+        },
+        name:"宣传",
+       
+    },
+    {
+        path:"/subject",
+        component:Subject,
+        meta:{
+            flag:true
+        },
+        name:"活动",
+       
+    },
+    {
+        path:"/detail_M",
+        component:DetailM,
+        meta:{
+            flag:false
+        },
+        name:"活动详情",
+       
+    },
+    {
+        path:"/cityM",
+        component:CityM,
+        meta:{
+            flag:false
+        },
+        name:"首页城市",
        
     }
 ]

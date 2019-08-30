@@ -17,6 +17,7 @@
     "redux-thunk": "^2.3.0",
     "scroll": "^3.0.1",
     "styled-components": "^4.3.2",
+    "swiper": "^4.5.0",
     "whatwg-fetch": "^3.0.0"
   },
   "scripts": {

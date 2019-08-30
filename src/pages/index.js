@@ -35,6 +35,27 @@ const SearchDetail = Loadable({
     loader:()=>import("./searchDetail"),
     loading:Loading
 })
+const Campaign = Loadable({
+    loader:()=>import("./campaign"),
+    loading:Loading
+})
+
+const Subject = Loadable({
+    loader:()=>import("./subject"),
+    loading:Loading
+})
+
+const DetailM = Loadable({
+    loader:()=>import("./detail_M"),
+    loading:Loading
+})
+
+const CityM = Loadable({
+    loader:()=>import("./cityM"),
+    loading:Loading
+})
+
+
 export {
     Home,
     Find,
@@ -42,5 +63,9 @@ export {
     Mine,
     Login,
     Register,
-    SearchDetail
+    SearchDetail,
+    Campaign,
+    Subject,
+    DetailM,
+    CityM
 }

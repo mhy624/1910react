@@ -30,7 +30,7 @@ export const TabBarWrapper = styled.div`
             font-size:.2rem;
         }
         span{
-            font-size:.15rem;
+            font-size:.14rem;
         }
         .active{
             color:#c33;

@@ -1,5 +1,6 @@
-import React, { Component,Fragment} from 'react'
-import TabBar from "@components/tabBar"
+// 公共布局
+import React, { Component,Fragment } from 'react'
+import TabBar from "@components/tabBar";
 export default class Layout extends Component {
     render() {
         return (
