@@ -4,11 +4,15 @@ import week from "./reducers/week_choice"
 import city from "./reducers/city"
 import search from "./reducers/search"
 import mhy from "./reducers/mhy"
+import ticked from "./reducers/ticked"
+import find from "./reducers/find"
 const reducer = combineReducers({
     week,
     city,
     search,
-    mhy
+    mhy,
+    ticked,
+    find
     
 })
 

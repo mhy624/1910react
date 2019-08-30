@@ -9,7 +9,8 @@ import {
     Campaign,
     Subject,
     DetailM,
-    CityM
+    CityM,
+    Ticked
 } from "@pages"
 
 export const tabBarRoute = [
@@ -114,6 +115,14 @@ export const noTabBarRoute = [
         },
         name:"首页城市",
        
+    },
+    {
+        path:"/ticked",
+        component:Ticked,
+        meta:{
+            flag:false
+        },
+        name:"详情", 
     }
 ]
 

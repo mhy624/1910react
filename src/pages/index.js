@@ -55,6 +55,12 @@ const CityM = Loadable({
     loading:Loading
 })
 
+const Ticked = Loadable({
+    loader:()=>import("./ticked"),
+    loading:Loading
+})
+
+
 
 export {
     Home,
@@ -67,5 +73,6 @@ export {
     Campaign,
     Subject,
     DetailM,
-    CityM
+    CityM,
+    Ticked
 }
