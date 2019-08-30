@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const DetailMWrapper =styled.div`
     width:100%;
+    height:100%;
+    overflow-y:auto;
     header{
         width:100%;
         height:1.9rem;
